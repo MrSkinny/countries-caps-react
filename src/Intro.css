@@ -1,0 +1,15 @@
+.Intro {
+  margin: 0 auto;
+  width: 35%;
+  text-align: left;
+}
+
+.Intro-Control {
+  text-align: center;
+}
+
+.Intro-Control button {
+  font-size: 16pt;
+  padding: 8px;
+  background-color: lightblue;
+}
