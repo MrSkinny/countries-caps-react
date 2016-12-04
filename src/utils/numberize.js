@@ -1,5 +1,7 @@
 export default function(num) {
   let numStr = parseInt(num, 10).toString();
+  if (numStr === 'NaN') return false;
+  
   let i = 1, currentChar = numStr.length - 1;
 
   while (currentChar > 0) {

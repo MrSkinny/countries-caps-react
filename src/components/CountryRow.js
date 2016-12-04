@@ -2,7 +2,7 @@ import React from 'react';
 import { browserHistory } from 'react-router';
 import './CountryRow.css';
 
-import { numberize } from './utils';
+import { numberize } from '../utils';
 
 const CountryRow = ({ country }) => {
   const { countryName, countryCode, capital, areaInSqKm, population, continent } = country;

@@ -17,4 +17,8 @@ describe('numberize', () => {
     expect(numberize(9629091.0)).toEqual("9,629,091");
   });
 
+  it('returns false when passed invalid num', () => {
+    expect(numberize('dsfsd')).toEqual(false);
+  });
+
 });
